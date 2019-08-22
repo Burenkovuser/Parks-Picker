@@ -154,8 +154,6 @@ class MasterViewController: UICollectionViewController {
     }
     // для перемещения ячеек
     
-    
-
     override func collectionView(_ collectionView: UICollectionView, moveItemAt sourceindexPath: IndexPath, to destinationIndexPath: IndexPath) {
         parkDataSource.moveParkAtIndexPath(sourceindexPath, toIndexPath: destinationIndexPath)
     }
