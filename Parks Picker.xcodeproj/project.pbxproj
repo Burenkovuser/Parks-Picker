@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		FB09F91B230B905700E4CA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09F91A230B905700E4CA59 /* AppDelegate.swift */; };
-		FB09F91D230B905700E4CA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09F91C230B905700E4CA59 /* ViewController.swift */; };
 		FB09F920230B905700E4CA59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09F91E230B905700E4CA59 /* Main.storyboard */; };
 		FB09F922230B905900E4CA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB09F921230B905900E4CA59 /* Assets.xcassets */; };
 		FB09F925230B905900E4CA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09F923230B905900E4CA59 /* LaunchScreen.storyboard */; };
+		FB09F935230B938B00E4CA59 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09F934230B938B00E4CA59 /* Park.swift */; };
+		FB09F937230B983F00E4CA59 /* ParksDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09F936230B983F00E4CA59 /* ParksDataSource.swift */; };
+		FB33F657230BA19900220915 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33F656230BA19900220915 /* MasterViewController.swift */; };
+		FB33F659230BA39100220915 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33F658230BA39100220915 /* CollectionViewCell.swift */; };
+		FB33F65B230BAFCB00220915 /* NationalParks.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB33F65A230BAFCB00220915 /* NationalParks.plist */; };
+		FB33F65D230BB81500220915 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33F65C230BB81500220915 /* DetailViewController.swift */; };
+		FB33F65F230BE8CE00220915 /* ParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33F65E230BE8CE00220915 /* ParkCell.swift */; };
+		FB33F661230BF84F00220915 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB33F660230BF84F00220915 /* GradientView.swift */; };
+		FB398A66230E55DE00CBDF66 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB398A65230E55DE00CBDF66 /* SectionHeaderView.swift */; };
+		FB398A68230EA75700CBDF66 /* ParkViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB398A67230EA75700CBDF66 /* ParkViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB09F917230B905700E4CA59 /* Parks Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parks Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB09F91A230B905700E4CA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB09F91C230B905700E4CA59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB09F91F230B905700E4CA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB09F921230B905900E4CA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB09F924230B905900E4CA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB09F926230B905900E4CA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB09F934230B938B00E4CA59 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		FB09F936230B983F00E4CA59 /* ParksDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksDataSource.swift; sourceTree = "<group>"; };
+		FB33F656230BA19900220915 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		FB33F658230BA39100220915 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FB33F65A230BAFCB00220915 /* NationalParks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = NationalParks.plist; path = "../../../../Урок 02/ParksPicker/Data/NationalParks.plist"; sourceTree = "<group>"; };
+		FB33F65C230BB81500220915 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FB33F65E230BE8CE00220915 /* ParkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCell.swift; sourceTree = "<group>"; };
+		FB33F660230BF84F00220915 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FB398A65230E55DE00CBDF66 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		FB398A67230EA75700CBDF66 /* ParkViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +73,62 @@
 			isa = PBXGroup;
 			children = (
 				FB09F91A230B905700E4CA59 /* AppDelegate.swift */,
-				FB09F91C230B905700E4CA59 /* ViewController.swift */,
+				FB09F92E230B91DF00E4CA59 /* Models */,
+				FB09F92C230B90A900E4CA59 /* Controllers */,
+				FB09F92D230B91AD00E4CA59 /* Data Sources */,
+				FB09F92F230B91FC00E4CA59 /* Layouts */,
 				FB09F91E230B905700E4CA59 /* Main.storyboard */,
 				FB09F921230B905900E4CA59 /* Assets.xcassets */,
 				FB09F923230B905900E4CA59 /* LaunchScreen.storyboard */,
 				FB09F926230B905900E4CA59 /* Info.plist */,
+				FB09F930230B921200E4CA59 /* Data */,
 			);
 			path = "Parks Picker";
+			sourceTree = "<group>";
+		};
+		FB09F92C230B90A900E4CA59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB33F656230BA19900220915 /* MasterViewController.swift */,
+				FB33F65C230BB81500220915 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB09F92D230B91AD00E4CA59 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB09F936230B983F00E4CA59 /* ParksDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		FB09F92E230B91DF00E4CA59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB09F934230B938B00E4CA59 /* Park.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB09F92F230B91FC00E4CA59 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				FB33F658230BA39100220915 /* CollectionViewCell.swift */,
+				FB33F65E230BE8CE00220915 /* ParkCell.swift */,
+				FB33F660230BF84F00220915 /* GradientView.swift */,
+				FB398A65230E55DE00CBDF66 /* SectionHeaderView.swift */,
+				FB398A67230EA75700CBDF66 /* ParkViewFlowLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		FB09F930230B921200E4CA59 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB33F65A230BAFCB00220915 /* NationalParks.plist */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB33F65B230BAFCB00220915 /* NationalParks.plist in Resources */,
 				FB09F925230B905900E4CA59 /* LaunchScreen.storyboard in Resources */,
 				FB09F922230B905900E4CA59 /* Assets.xcassets in Resources */,
 				FB09F920230B905700E4CA59 /* Main.storyboard in Resources */,
@@ -135,7 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB09F91D230B905700E4CA59 /* ViewController.swift in Sources */,
+				FB398A68230EA75700CBDF66 /* ParkViewFlowLayout.swift in Sources */,
+				FB33F659230BA39100220915 /* CollectionViewCell.swift in Sources */,
+				FB33F657230BA19900220915 /* MasterViewController.swift in Sources */,
+				FB09F937230B983F00E4CA59 /* ParksDataSource.swift in Sources */,
+				FB33F65D230BB81500220915 /* DetailViewController.swift in Sources */,
+				FB398A66230E55DE00CBDF66 /* SectionHeaderView.swift in Sources */,
+				FB09F935230B938B00E4CA59 /* Park.swift in Sources */,
+				FB33F65F230BE8CE00220915 /* ParkCell.swift in Sources */,
+				FB33F661230BF84F00220915 /* GradientView.swift in Sources */,
 				FB09F91B230B905700E4CA59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
